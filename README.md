@@ -4,6 +4,8 @@ A small program that visualizes data from simulated and real players using two s
 
 ## **How it works**
 
+Download this repository by clicking the green **code** button, then downloading and unzipping the **zip file**. 
+
 Run the program.
 
 Enter your username when prompted.
