@@ -1,8 +1,8 @@
-#**Map Visualizer**
+# **Map Visualizer**
 
 A small program that visualizes data from simulated and real players using two spreadsheets included in this repository.
 
-##**How it works**
+## **How it works**
 
 Run the program.
 
@@ -10,7 +10,7 @@ Enter your username when prompted.
 
 The map will be generated and saved as testMap.html in the same folder.
 
-###**The map shows:**
+### **The map shows:**
 
   Red markers – gold/first place user locations
 
