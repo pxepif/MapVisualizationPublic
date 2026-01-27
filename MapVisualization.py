@@ -8,7 +8,7 @@ def pullActualCoords(round, geoJson):
     lon = row.geometry.x.values[0]
     lat = row.geometry.y.values[0]
     return lat, lon
-#add the actual locations! 
+
 def createMap(otherRoundsSpreadSheet, geoJson, username):
     map = folium.Map(location=[0, 0], zoom_start=2)
     winnerCoords = otherRoundsSpreadSheet.loc[otherRoundsSpreadSheet['winner'] == username, ['lat', 'lng', 'round']]
