@@ -57,8 +57,8 @@ def createMap(otherRoundsSpreadSheet, geoJson, username):
     map.save("testMap.html")
 
 def main():
-    otherRoundsSpreadSheet = pd.read_csv("insert_path\\country cities sim with others rounds.csv")
-    geoJson = gpd.read_file("insert_path\\Cities from cities500 (one per graticule).geojson")
+    otherRoundsSpreadSheet = pd.read_csv("insert_path\\country cities sim with others rounds.csv") #REPLACE insert_path WITH ACTUAL FILE PATH
+    geoJson = gpd.read_file("insert_path\\Cities from cities500 (one per graticule).geojson") #REPLACE insert_path WITH ACTUAL FILE PATH
     print("Type in your username")
     username = input()
     if (username not in otherRoundsSpreadSheet['winner'].values and 
