@@ -6,6 +6,8 @@ A small program that visualizes data from simulated and real players using two s
 
 Download this repository by clicking the green **code** button, then downloading and unzipping the **zip file**. 
 
+Replace "insert_path" in the main function with the actual file paths for the two csv files in this repository on your local machine.
+
 Run the program.
 
 Enter your username when prompted.
